@@ -1,0 +1,82 @@
+body
+{
+	background: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+div
+{
+	width: 200px;
+	height: 200px;
+	border-radius:5px;
+	margin: 0.1em 0.1em;
+}
+
+header
+{
+	background: #F7F4F4;
+	font-size: 1em;
+	margin: 1em 2em 0.1em 2em;	
+}
+
+header h1 a
+{
+	color: black;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 0.3em;
+}
+
+header input
+{
+	width: 28%; 
+	margin-left: 15%;
+	margin-top: 2.5em;
+	position: fixed;
+
+}
+header h1, input
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.principal
+{
+	background: #EBEBEB;
+	margin: 0.1em 2em 0.1em 2em;
+}
+
+.principal #s 
+{
+	background: #CBCACA;
+}
+.principal #s, #login
+{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.login
+{
+	background: #ABABAB;
+}
+#spelis
+{
+	background: blue;
+}
+#sseries
+{
+	background: green;
+}
+#sanime
+{
+	background: red;
+}
+#sjuegos
+{
+	background: yellow;
+}

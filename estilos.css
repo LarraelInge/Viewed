@@ -67,16 +67,26 @@ header h1, input
 #spelis
 {
 	background: blue;
+	display: inline-block;
+	position: left;
 }
 #sseries
 {
-	background: blue;
+	background: red;
+	display: inline-block;
+	position: top;
 }
 #sanime
 {
-	background: blue;
+	background: green;
+	
 }
 #sjuegos
 {
-	background: blue;
+	background: black;
+    display: inline-block;
+	
+
+
+
 }

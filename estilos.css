@@ -1,6 +1,6 @@
 body
 {
-	background: black;
+	background: #F0F0F0;
 	font-family: arial;
 	font-size: 16px;
 	
@@ -23,7 +23,7 @@ header
 	margin: 0em 2em 0.1em 2em;	
 	width: 95%;
 	position: fixed;
-	background-color: red; 
+	background-color: #FF7700; 
 }
 
 
@@ -32,6 +32,7 @@ header h1
 	width: 1%;
 	display: inline-block;	
     vertical-align: left;
+    margin: 1% 0em 0em 1%;
 	
 }
 header h1 a
@@ -49,7 +50,7 @@ header select
 	width: 20%; 
     display: inline-block;	
     vertical-align: top;
-	margin: 1em 1em 1em 10em;
+	margin: 1% 1em 1em 10%;
 
 }
 
@@ -58,7 +59,7 @@ header section
 	width: 45%; 
     display: inline-block;	
 	vertical-align: top;
-	margin: 1em 1em 1em 10em;
+	margin: 1% 1em 1em 10%	;
 
 
 }
@@ -66,16 +67,24 @@ header section
 
 .principal
 {
-	background: #EBEBEB;
+	background: #B0E3F4;
 	margin: 0em 0em 0em 2em;	
-	padding:  4.5em 0.5em;
-	width: 94%;
+	padding:  0em 0em;
+	width: 94.9%;
+	box-shadow: rgba(0,9,10,10.7) 0px 5px 100px;
+	border-radius: 0.2em;
+
 }
 
 .principal #s 
 {
-	background: yellow ;/*#CBCACA;*/
+	background: #4C9ED9 ;/*#CBCACA;*/
 	width: 70%;
+	margin: 0em 0em 0em 0em;
+	padding:  5em 0em;
+	
+
+
 }
 #s, #r, #derecha, #izquierda
 {
@@ -87,10 +96,10 @@ header section
 
 #r
 {
-	background: blue;/*#ABABAB;*/
+	background: #B0E3F4;/*#ABABAB;*/
 	width: 25%;
 	text-align: right;
-	margin: 1em 1em 0em 1em;
+	margin: 8em 1em 0em 1em;
 
 }
 #r input, button
@@ -101,13 +110,12 @@ header section
 
 #izquierda
 {
-padding: none;	
-margin: 1em 1em 1em 6em;
+margin: 1em 1em 1em 20%;
 }
 
 #derecha
 {
-margin: 0em 0em 0em 0em;
+margin: 0em 0em 0em 0%;
 }
 
 #spelis
